@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void miFgets(char nombre[], int cantidad);
+
+int main(){
+    char nombre[41];
+    int cantidad;
+
+    printf("Ingrese nombre: ");
+
+    miFgets(nombre, 41);
+
+    printf("\nLa cadena es: %s", nombre);
+
+    return 0;
+}
+
+void miFgets(char nombre[], int cantidad){
+
+    fflush(stdin);
+    fgets(nombre, cantidad-2, stdin);
+
+    nombre[cantidad-1] = '\0';
+}

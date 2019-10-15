@@ -1,0 +1,12 @@
+/*Elimina TODOS los espacios en blanco */
+
+void miTrim(const char entrada[], char salida[]){
+    int i, j = 0;
+
+    for (i = 0; entrada[i] != '\0'; i++) {
+        /* if (entrada[i] != ' ') { */
+	if (!isspace(entrada[i])) {
+            salida[j++] = entrada[i];
+        }
+    }
+}
