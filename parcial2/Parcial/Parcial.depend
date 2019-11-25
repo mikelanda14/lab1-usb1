@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1574632920 source:c:\c#\parcial2\parcial\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1574692249 source:c:\c#\parcial2\parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1574691898 c:\c#\parcial2\parcial\linkedlist.h
+
+1574701151 source:c:\c#\parcial2\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+	"LinkedList.h"
+	"Controller.h"
+	"dominio.h"
+
+1574690926 c:\c#\parcial2\parcial\input.h
+
+1574694736 c:\c#\parcial2\parcial\controller.h
+
+1574695002 source:c:\c#\parcial2\parcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+	"LinkedList.h"
+	"dominio.h"
+	"parser.h"
+
+1574648071 c:\c#\parcial2\parcial\parser.h
+
+1574693767 c:\c#\parcial2\parcial\dominio.h
+
+1574693767 source:c:\c#\parcial2\parcial\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+	"LinkedList.h"
+	"parser.h"
+	"dominio.h"
+
+1574695887 source:c:\c#\parcial2\parcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"dominio.h"
+	<string.h>
+

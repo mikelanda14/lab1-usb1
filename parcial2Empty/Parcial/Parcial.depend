@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1574632920 source:c:\c#\parcial2\parcial\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1574628847 source:c:\c#\parcial2\parcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1572997962 c:\c#\parcial2\parcial\linkedlist.h
+
+1574633301 source:c:\c#\parcial2\parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"input.h"
+	"LinkedList.h"
+
+1574630299 c:\c#\parcial2\parcial\input.h
+
